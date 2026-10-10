@@ -1,0 +1,31 @@
+STORE RATE APP — QUICK START
+
+1. Install MySQL Server (Workbench optional):
+   https://dev.mysql.com/downloads/installer/
+   Choose Developer Default to get Server + Workbench, or Server Only.
+   Set a root password and remember it.
+
+2. In VS Code, open this project folder.
+
+3. Configure backend:
+   - Open backend/.env.example and copy it to a new file named backend/.env
+   - Put your MySQL password in DB_PASSWORD.
+   - You may change ADMIN_PASSWORD before first start.
+
+4. Terminal 1:
+   cd backend
+   npm install
+   npm run dev
+
+5. Terminal 2:
+   cd frontend
+   npm install
+   npm run dev
+
+6. Open the Vite URL (usually http://localhost:5173).
+
+Default admin (created on first backend start):
+Email: admin@storerating.local
+Password: Admin@123
+
+The backend creates the database and tables automatically.
